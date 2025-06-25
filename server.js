@@ -7,6 +7,8 @@ const middlewares = jsonServer.defaults();
 server.use(middlewares);
 
 const allowedOrigins = [
+  'https://lipebrks.github.io/', 
+    'https://lipebrks.github.io', 
     'https://lipebrks.github.io/spotlight/',
     'https://lipebrks.github.io/spotlight',
     'http://localhost:8000', 
