@@ -11,7 +11,8 @@ const allowedOrigins = [
     'https://lipebrks.github.io/spotlight',
     'http://localhost:8000', 
     'http://localhost:5500', 
-    'http://127.0.0.1:5500' 
+    'http://127.0.0.1:5500',
+    'https://spotlight-backend-z6xo.onrender.com'
 ];
 
 server.use((req, res, next) => {
